@@ -1,24 +1,23 @@
 # OnChainIQ
 
-**OnChainIQ** is an on-chain data analyzer designed to extract, process, and visualize blockchain activity.  
-It provides actionable insights into token movements, whale activity, and emerging assets, helping researchers, traders, and developers make informed decisions.
+**Ethereum On-Chain Data Analyzer & Whale Tracking Tool**
+
+OnChainIQ is a Python-based tool designed to collect, process, and organize Ethereum on-chain data using the [Ethplorer API](https://ethplorer.io/). It fetches token, holder, and transaction data, transforms it into structured tables, and exports it into an Excel workbook for analysis.  
+
+This tool provides actionable datasets for DeFi analytics, portfolio monitoring, and strategic insights into Ethereum whale activity.
+
+---
 
 ## Features
-- Fetch Ethereum (and other chain) on-chain data
-  - Top tokens, newly minted tokens, top holders
-  - Address-level transaction history
-- Transform and normalize data for analysis
-- Export datasets to Excel, CSV, or JSON
-- Integration with Power BI, Tableau, or custom dashboards
-- Scalable framework for multi-chain analytics
 
-## Tech Stack
-- Python 3.11+
-- Libraries: Pandas, Requests, Web3.py, OpenPyXL
-- APIs: Ethplorer, Etherscan, custom RPC endpoints
+- Fetch **Top Tokens** by market cap  
+- Fetch **Newly Created Tokens**  
+- Fetch **Top Holders** for each token  
+- Fetch **Address Info** and **Transaction History**  
+- Export all data into a single Excel file with multiple sheets  
+- Timestamp conversion & JSON normalization for easy analysis  
 
-## Installation
-```bash
-git clone https://github.com/<your-username>/OnChainIQ.git
-cd OnChainIQ
-pip install -r requirements.txt
+---
+
+## Project Structure
+
