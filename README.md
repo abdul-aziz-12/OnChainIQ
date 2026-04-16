@@ -22,7 +22,15 @@ This tool provides actionable datasets for DeFi analytics, portfolio monitoring,
 ## Project Structure
 
 
-<h2>Dashboard Preview</h2>
+<h2 align="center">Analytics Dashboard Preview</h2>
+
+<p align="center">
+  <img src="analytics/1.jpg" width="700"/>
+</p>
+
+<p align="center">
+  <img src="analytics/2.jpg" width="700"/>
+</p>
 
 <p align="center">
   <img src="analytics/3.jpg" width="700"/>
@@ -34,4 +42,8 @@ This tool provides actionable datasets for DeFi analytics, portfolio monitoring,
 
 <p align="center">
   <img src="analytics/5.jpg" width="700"/>
+</p>
+
+<p align="center">
+  <img src="analytics/6.jpg" width="700"/>
 </p>
